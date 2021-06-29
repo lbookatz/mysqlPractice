@@ -4,6 +4,7 @@ const Movies = require("../models/movies")
 const Users = require("../models/Users")
 const Favorites = require("../models/Favorites")
 
+router.get ()
 
 router.post('/',async (req,res) => {
     await Movies.create({name:req.body.movie});
